@@ -5,22 +5,30 @@
 }
 
 
+<style>
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh; /* Dikey ortaya almak için ekran yüksekliğinin yarısı kadar boşluk */
+        gap: 60px; /* Logolar arasındaki boşluk */
+    }
+</style>
+
 <div class="jumbotron">
-    <h1>Sabancidx 💜 ETİ </h1>
-    <p class="lead">SDX test app.</p>
+    <h1>Sabancidx 💜 ETİ</h1>
+    <p class="lead">Sabancidx test app.</p>
     
-    <!-- Logo container with centering styles -->
-    <div class="text-center mt-5">
-    <div class="d-flex justify-content-center align-items-center">
+    <!-- Logo container -->
+    <div class="logo-container">
         <!-- First logo -->
-        <div class="mx-5">  <!-- mx-4'ten mx-5'e değiştirerek boşluğu artırdım -->
+        <div>
             <img src="https://www.sabancidx.com/images/sabancidx-logo.svg" alt="SDX Logo" height="80" />
         </div>
         
         <!-- Second logo -->
-        <div class="mx-5">  <!-- mx-4'ten mx-5'e değiştirerek boşluğu artırdım -->
+        <div>
             <img src="https://yildizik.org/wp-content/uploads/2021/03/Eti-Logo-1-7.png" alt="eti Logo" height="80" />
         </div>
     </div>
-</div>
 </div>
