@@ -1,6 +1,21 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/* Navbar arka plan rengini kırmızı yapma */
+.navbar {
+  background-color: #ff0000 !important; /* Kırmızı */
+}
+
+/* Navbar'daki yazıların rengini beyaz yapma */
+.navbar a, .navbar-brand, .navbar-text {
+  color: #ffffff !important; /* Beyaz */
+}
+
+/* Sayfa arka plan rengini sarı yapma */
+body {
+  background-color: #ffff00 !important; /* Sarı */
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
