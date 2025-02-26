@@ -15,7 +15,7 @@ html {
 
 body {
   margin-bottom: 70px;
-  background-color: rgba(50, 19, 190, 0.233);
+  background-color: rgba(56, 59, 66, 0.13);
 }
 
 .footer {
@@ -25,6 +25,6 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  background-color: #fff; /* Footer arkasını beyaz yapın ki metin okunabilsin */
+  background-color: rgba(56, 59, 66, 0.13); /* Footer arkasını beyaz yapın ki metin okunabilsin */
   z-index: 1000;
 }
