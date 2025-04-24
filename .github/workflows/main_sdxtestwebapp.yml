@@ -22,6 +22,7 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+        env:
           DOTNET_INSTALL_DIR: ${{ runner.temp }}/.dotnet
       - name: Add .dotnet to PATH
         run: echo "${{ runner.temp }}/.dotnet" >> $GITHUB_PATH
