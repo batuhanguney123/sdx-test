@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: windows-latest
     permissions:
       contents: read #This is required for actions/checkout
 
@@ -54,9 +54,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1C35EF1BCE494E199CA604EDDDA78336 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A3D41607FEB24FE7BEFE5FC39CC4D8CA }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_0A1DEC1796E54DC6A64304329CEB3606 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8F78AA2019F843F2BE29DAC646F7C9F2 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_6DE101E5DE034917A8EC22FA7909DCD7 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_4E2800A5E3644F1692CD70C8F32FA785 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
